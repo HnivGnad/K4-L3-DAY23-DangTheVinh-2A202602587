@@ -1,0 +1,18 @@
+{
+  "a": {
+    "region": "a",
+    "pool_state": "full",
+    "weights": true,
+    "count": 200,
+    "latest_doc_ts": 1791512841.9184778,
+    "ts": 1791512846.5067651
+  },
+  "b": {
+    "region": "b",
+    "pool_state": "warm",
+    "weights": false,
+    "count": 0,
+    "latest_doc_ts": null,
+    "ts": 1791512846.5541646
+  }
+}

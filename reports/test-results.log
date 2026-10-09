@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-8.3.4, pluggy-1.6.0 -- /mnt/host/d/AI/Track2/Day23-DangTheVinh-2A202602587-DisaterRecovery4AIInfrastructure/run/python-linux/cpython-3.12.14-linux-x86_64-musl/bin/python3.12
+cachedir: .pytest_cache
+rootdir: /mnt/host/d/AI/Track2/Day23-DangTheVinh-2A202602587-DisaterRecovery4AIInfrastructure
+plugins: anyio-4.15.1
+collecting ... collected 17 items
+
+tests/test_failover.py::test_rpo_dem_dung_so_doc_bi_mat PASSED           [  5%]
+tests/test_failover.py::test_health_checker_can_threshold_lien_tiep PASSED [ 11%]
+tests/test_failover.py::test_failover_khong_cutover_khi_target_chua_ready PASSED [ 17%]
+tests/test_rto_evidence.py::test_drill1_ton_tai_va_khong_phuc_hoi PASSED [ 23%]
+tests/test_rto_evidence.py::test_drill2_hop_le PASSED                    [ 29%]
+tests/test_rto_evidence.py::test_rto_do_duoc_bang_timestamp PASSED       [ 35%]
+tests/test_rto_evidence.py::test_health_check_interval_duoc_ghi_lai PASSED [ 41%]
+tests/test_rto_evidence.py::test_rpo_duoc_do_chu_khong_uoc_luong PASSED  [ 47%]
+tests/test_rto_evidence.py::test_evidence_table_tro_vao_file_that PASSED [ 52%]
+tests/test_rto_evidence.py::test_chaos_khong_giet_ca_hai_region PASSED   [ 58%]
+tests/test_rto_evidence.py::test_evidence_table_da_dien_that PASSED      [ 64%]
+tests/test_rto_evidence.py::test_so_trong_bang_khop_voi_so_trong_log PASSED [ 70%]
+tests/test_rto_evidence.py::test_postmortem_co_gap_analysis PASSED       [ 76%]
+dr/test_safety.py::test_recovery_resets_failure_streak_and_logs_only_transitions PASSED [ 82%]
+dr/test_safety.py::test_confirmation_defaults_to_no PASSED               [ 88%]
+dr/test_safety.py::test_runbook_calls_failover_once_and_checks_ten_requests PASSED [ 94%]
+dr/test_safety.py::test_missing_snapshot_preserves_routing PASSED        [100%]
+
+============================== 17 passed in 1.37s ==============================
